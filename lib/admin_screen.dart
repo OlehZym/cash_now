@@ -231,10 +231,6 @@ class AdminScreenState extends State<AdminScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Управление товарами'),
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back),
-          onPressed: () => Navigator.pop(context),
-        ),
         actions: [
           Padding(
             padding: EdgeInsets.only(top: 6), // отступ сверху

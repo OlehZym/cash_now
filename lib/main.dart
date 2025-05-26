@@ -1,5 +1,5 @@
 import 'package:cash_now/admin_screen.dart';
-import 'package:cash_now/my_home_page.dart';
+import 'package:cash_now/home_screen.dart';
 import 'package:cash_now/product_adapter.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
@@ -35,7 +35,7 @@ class CashNow extends StatelessWidget {
     return MaterialApp(
       title: 'POS App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: MyHomePage(), // БЫЛО: CashierScreen()
+      home: HomeScreen(),
       routes: {'/admin': (_) => AdminScreen()},
     );
   }
